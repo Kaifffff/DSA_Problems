@@ -9,8 +9,8 @@ public class Merge2BST {
 		Node right;
 		public Node(int data) {
 			this.data = data;
-			this.left = left;
-			this.right = right;
+			this.left = null;
+			this.right = null;
 		}
 	}
 	public static void getinorder(Node root , ArrayList<Integer> inorder) {
